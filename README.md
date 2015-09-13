@@ -1,0 +1,1 @@
+Javascript inheritance with support super methods
