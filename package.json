@@ -1,0 +1,34 @@
+{
+  "name": "base-extends",
+  "version": "0.1.1",
+  "description": "Simple inheritance with one function",
+  "main": "extend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savelichalex/extends.git"
+  },
+  "keywords": [
+    "extend"
+  ],
+  "author": {
+    "name": "Alexey Savelyev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savelichalex/extends/issues"
+  },
+  "_npmUser": {
+    "name": "savelichalex",
+    "email": "savelichalex93@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "savelichalex",
+      "email": "savelichalex93@gmail.com"
+    }
+  ],
+  "directories": {},
+}
