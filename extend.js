@@ -1,9 +1,11 @@
-Object.defineProperty(Function.prototype, 'extends', {
-    value: extend,
-    writable: false,
-    enumerable: false,
-    configurable: false
-});
+if (typeof Function.prototype.extends === "undefined") {
+	Object.defineProperty(Function.prototype, 'extends', {
+		value       : extend,
+		writable    : false,
+		enumerable  : false,
+		configurable: false
+	});
+}
 
 function extend(Parent) {
 
